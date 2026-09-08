@@ -1,3 +1,3 @@
-text = "user@example.com"
+text = "banana"
 
-print(text.rpartition("@"))
+print(text.count("a"))
