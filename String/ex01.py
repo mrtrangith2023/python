@@ -1,7 +1,3 @@
-text = """Python
-Java
-Kotlin"""
+text = "user@example.com"
 
-words = text.splitlines()
-
-print(words)
+print(text.rpartition("@"))
