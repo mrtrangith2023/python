@@ -1,9 +1,7 @@
-text = "programming"
+text = "Python"
 
-dem = 0
+
 
 for char in text:
-    if char == "m":
-        dem += 1
-
-print(dem)
+     words = "-".join(text)
+print(words)
