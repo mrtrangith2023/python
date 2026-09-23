@@ -6,10 +6,10 @@ products = [
     {"name": "Headphone", "price": 1200, "stock": 0}
 ]
 
-list_product = []
+dem = 0
 
 for product in products:
-    if product["stock"] > 0 and (product["price"] >= 2000 or product["stock"] >= 20):
-        list_product.append(product)
+    if product["price"] >= 1000 and product["stock"] > 0:
+        dem += 1
 
-print(list_product)
+print("Số lượng sản phẩm trong danh sách thỏa điều kiện là: ", dem)
